@@ -5,7 +5,6 @@
  * var myDrag=new MyDrag({options}); myDrag.init();
  * options内部参数 el要进行拖拽的元素（ps：必传）  dragMode拖拽模式下面有参数说明（可不传  默认任意拖拽） upgradeDragMode升级拖拽(可不传  需基础模式拖拽参数dragMode配合)  limitDrag拖拽边界限制（可不传   对应模式有默认的边界限制）
  */
-RSF.regist("MyDrag");
 MyDrag=function(options){
     if(!options.el){
         return;
